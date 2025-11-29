@@ -2,7 +2,7 @@ import Card from "../components/ProdutoCard";
 import './Home.css'
 import { useEffect, useState } from "react";
 
-const API_URL = 'https://crudcrud.com/api/195320e92fcc4ad8886cb5d4c5b5a998/tarefas';
+const API_URL = 'https://crudcrud.com/api/f344df899d0f42178eafe5c75763391e/tarefas';
 
 function Home() {
     const [produtos, setProdutos] = useState([]);
